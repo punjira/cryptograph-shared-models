@@ -1,0 +1,36 @@
+{
+  "name": "@cryptograph-app/shared-models",
+  "version": "0.0.1-beta",
+  "description": "shared mongo models over cryptograph application services ",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc"
+  },
+  "keywords": [
+    "cryptograph-app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/punjira/cryptograph-shared-models"
+  },
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/punjira/cryptograph-shared-models/issues"
+  },
+  "homepage": "https://github.com/punjira/cryptograph-shared-models",
+  "author": "punjira",
+  "devDependencies": {
+    "del-cli": "^3.0.0",
+    "mongoose": "^6.0.12",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "mongoose": "^6"
+  },
+  "dependencies": {}
+}
